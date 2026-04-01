@@ -1,4 +1,5 @@
 #
+
 # Copyright (C) 2026 The Android Open Source Project
 # Copyright (C) 2026 SebaUbuntu's TWRP device tree generator
 #
@@ -16,7 +17,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/infinix/Infinix-X665B/device.mk)
 
 PRODUCT_DEVICE := Infinix-X665B
-PRODUCT_NAME := omni_Infinix-X665B
+PRODUCT_NAME := twrp_infinix_x665B
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X665B
 PRODUCT_MANUFACTURER := infinix
